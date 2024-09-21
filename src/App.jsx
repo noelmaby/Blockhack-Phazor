@@ -1,15 +1,17 @@
 import React from 'react';
 import {Routes,Route} from 'react-router-dom'
+import {Toaster} from 'react-hot-toast'
 
-import LoginP from "../src/pages/Loginpage/Login"
+import MainP from "../src/pages/Mainpage/Mainpage"
 function App() {
 
 
   return (
     <>
-      <Routes>
+      <Toaster position='bottom-right' toastOptions={{duration:3000}} />
 
-        <Route path='/' element={<LoginP/>} />
+      <Routes>
+        <Route path='/' element={<MainP/>} />
       </Routes>
         
         

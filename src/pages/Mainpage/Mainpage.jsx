@@ -1,33 +1,35 @@
 import React,{useState} from 'react'
 import {ethers} from 'ethers';
+import {toast} from 'react-hot-toast';
 
 const Login = () => {
 
-    const [errorMessage,setErrorMessage]=useState(null);
-    const [defaultAccount,setDefaultAccount]=useState(null);
      
     const connectWallet =() =>{
         if (window.ethereum) {
             window.ethereum.request({method:'eth_requestAccounts'})
             .then(result =>{
                 accountChanged([result[0]])
+            toast.success('Login Successfull');
+            console.log('login success')
             })
         }else{
-            setErrorMessage('install MetaMask !!')
+            toast.error('Login using Metamask Wallet only!!')
+            console.log('need metamask so login')
         }
     }
 
     const accountChanged = (accountName) =>  {
-        setDefaultAccount(accountName)
+        console.log(accountName)
     }
 
   return (
     <div>
-        <h1>Metamask wallet connectio</h1>
+        
         <button onClick={connectWallet}>Connect to metamask</button>
-        <h2>Adress: {defaultAccount}</h2>
+        
 
-        {errorMessage}
+        
     </div>
   )
 }

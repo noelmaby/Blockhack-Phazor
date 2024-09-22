@@ -3,8 +3,9 @@ import {Routes,Route} from 'react-router-dom'
 import {Toaster} from 'react-hot-toast'
 
 import MainP from "../src/pages/Mainpage/Mainpage"
-function App() {
+import NftP from "../src/pages/Mainpage/Nftpage"
 
+function App() {
 
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<MainP/>} />
+        <Route path='/nft' element={<NftP/>} />
       </Routes>
         
         

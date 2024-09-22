@@ -27,12 +27,7 @@ const Nft1page = () => {
             <Link to='/'><li><a>Home</a></li></Link>
              <Link to='/nft'><li><a href="#">NFT</a></li></Link> 
               <li><a href="#" >Create Campaign</a></li>
-              <li>
-                <button className="connect-button">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/metamask-2728406-2261817.png" className="metamask-icon" alt="MetaMask Icon" />
-                  Connected
-                </button>
-              </li>
+              
             </ul>   
             <a className="menu-trigger">
               <span>Menu</span>
@@ -82,12 +77,13 @@ const Nft1page = () => {
       </div>
     </div>
   </div>
-  footer&gt;
+  <footer>
   <div className="container">
     <div className="col-lg-12">
       <p>Copyright © 2024 Trudo NFT Campaign Company. All rights reserved.</p>
     </div>
   </div>
+  </footer>
 </div>
 
   )

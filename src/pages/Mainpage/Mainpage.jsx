@@ -66,7 +66,7 @@ const Mainpage = () => {
                   <Link to='/nft'><a href="./Nft.html">NFT</a></Link>
                   </li>
                   <li>
-                    <a href="shop.html">Create Campaign</a>
+                    <a >Create Campaign</a>
                   </li>
                   <li>
                     <button onClick={connectWallet} className="connect-button">
@@ -184,14 +184,14 @@ const Mainpage = () => {
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="item">
                       <div className="thumb">
-                        <a href="product-details.html">
+                        <a >
                           <img src={nft1} alt="" />
                         </a>
                       </div>
                       <div className="down-content">
                         <span className="category">Wayanad</span>
                         <h4>Rebuild</h4>
-                        <a href="product-details.html">Explore</a>
+                        <Link to='/nft1'>Explore</Link>
                       </div>
                     </div>
                   </div>
@@ -199,14 +199,14 @@ const Mainpage = () => {
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="item">
                       <div className="thumb">
-                        <a href="product-details.html">
+                        <a >
                           <img src={nft2} alt="" />
                         </a>
                       </div>
                       <div className="down-content">
                         <span className="category">Lebanon</span>
                         <h4>Pager Aid</h4>
-                        <a href="product-details.html">Explore</a>
+                        <Link to='/nft2'>Explore</Link>
                       </div>
                     </div>
                   </div>
@@ -214,14 +214,14 @@ const Mainpage = () => {
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="item">
                       <div className="thumb">
-                        <a href="product-details.html">
+                        <a >
                           <img src={nft3} alt="" />
                         </a>
                       </div>
                       <div className="down-content">
                         <span className="category">Uttarakhand</span>
                         <h4>ReLeaf</h4>
-                        <a href="product-details.html">Explore</a>
+                        <a >Explore</a>
                       </div>
                     </div>
                   </div>
@@ -229,14 +229,14 @@ const Mainpage = () => {
                   <div className="col-lg-3 col-md-6 col-sm-12">
                     <div className="item">
                       <div className="thumb">
-                        <a href="product-details.html">
+                        <a >
                           <img src={nft4} alt="" />
                         </a>
                       </div>
                       <div className="down-content">
                         <span className="category">Flood to Future</span>
                         <h4>Assam</h4>
-                        <a href="product-details.html">Explore</a>
+                        <a >Explore</a>
                       </div>
                     </div>
                   </div>

@@ -28,12 +28,7 @@ const Nftpage2 = () => {
             <Link to='/'><li><a>Home</a></li></Link>
             <Link to='/nft'><li><a href="#">NFT</a></li></Link> 
               <li><a href="#" >Create Campaign</a></li>
-              <li>
-                <button className="connect-button">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/metamask-2728406-2261817.png" className="metamask-icon" alt="MetaMask Icon" />
-                  Connect with MetaMask
-                </button>
-              </li>
+              
             </ul>   
             <a className="menu-trigger">
               <span>Menu</span>

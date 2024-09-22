@@ -56,12 +56,7 @@ const Nftpage = () => {
             <Link to='/'><li><a>Home</a></li></Link>
              <Link to='/nft'><li><a href="#">NFT</a></li></Link> 
               <li><a href="#" >Create Campaign</a></li>
-              <li>
-                <button onclick={connectWallet} className="connect-button">
-                  <img src="https://cdn.iconscout.com/icon/free/png-256/metamask-2728406-2261817.png" className="metamask-icon" alt="MetaMask Icon" />
-                  Connect with MetaMask
-                </button>
-              </li>
+              
             </ul>   
             <a className="menu-trigger">
               <span>Menu</span>
@@ -106,7 +101,7 @@ data-filter=".rac"*/}
         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
           <div className="item">
             <div className="thumb">
-              <a href="product-details.html"><img src={nft1} alt /></a>
+              <a ><img src={nft1} alt /></a>
               {/*<span class="price"><em>Rs 450/-</em>Rs 350/-</span>*/}
             </div>
             <div className="down-content">
@@ -119,7 +114,7 @@ data-filter=".rac"*/}
         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 str">
           <div className="item">
             <div className="thumb">
-              <a href="product-details.html"><img src={nft2} alt /></a>
+              <a><img src={nft2} alt /></a>
             </div>
             <div className="down-content">
               <span className="category">Lebanon</span>
@@ -136,67 +131,67 @@ data-filter=".rac"*/}
             <div className="down-content">
               <span className="category">Uttarakhand</span>
               <h4>ReLeaf</h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <a><i className="fa fa-shopping-bag" /></a>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 str">
           <div className="item">
             <div className="thumb">
-              <a href="product-details.html"><img src={nft4} alt /></a>
+              <a ><img src={nft4} alt /></a>
             </div>
             <div className="down-content">
               <span className="category">Assam</span>
               <h4>Flood to Future</h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <a ><i className="fa fa-shopping-bag" /></a>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 rac str">
           <div className="item">
             <div className="thumb">
-              <a href="product-details.html"><img src={nft5} alt /></a>
+              <a ><img src={nft5} alt /></a>
             </div>
             <div className="down-content">
               <span className="category">China</span>
               <h4>Survive Leukemia</h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <a ><i className="fa fa-shopping-bag" /></a>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 rac adv">
           <div className="item">
             <div className="thumb">
-              <a href="product-details.html"><img src={nft6} alt /></a>
+              <a ><img src={nft6} alt /></a>
             </div>
             <div className="down-content">
               <span className="category">Africa</span>
               <h4>End hunger </h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <a ><i className="fa fa-shopping-bag" /></a>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 rac str">
           <div className="item">
             <div className="thumb">
-              <a href="product-details.html"><img src={nft7} alt /></a>
+              <a><img src={nft7} alt /></a>
             </div>
             <div className="down-content">
               <span className="category">Uttar Pradesh</span>
               <h4>Flood</h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <a ><i className="fa fa-shopping-bag" /></a>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 rac adv">
           <div className="item">
             <div className="thumb">
-              <a href="product-details.html"><img src={nft8} alt /></a>
+              <a ><img src={nft8} alt /></a>
             </div>
             <div className="down-content">
               <span className="category">Vilangad</span>
               <h4>Hope</h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <a><i className="fa fa-shopping-bag" /></a>
             </div>
           </div>
         </div>

@@ -21,6 +21,15 @@ import nft4 from "./images/nft4.jpeg"
 
 const Mainpage = () => {
 
+    const [connection, setConnection] = useState(0);
+
+    const handleLinkClick = (e) => {
+        if (connection !== 'connected') {
+          e.preventDefault(); // Prevent the link from navigating
+          toast.error('Please connect your wallet first!'); // Show error message
+        }
+      };
+
     const connectWallet =() =>{
         if (window.ethereum) {
             window.ethereum.request({method:'eth_requestAccounts'})
@@ -28,6 +37,7 @@ const Mainpage = () => {
                 accountChanged([result[0]])
             toast.success('Login Successfull');
             console.log('login success')
+            setConnection('connected');
             })
         }else{
             toast.error('Login using Metamask Wallet only!!')
@@ -63,19 +73,18 @@ const Mainpage = () => {
                     <a href="#" className="active">Home</a>
                   </li>
                   <li>
-                  <Link to='/nft'><a href="./Nft.html">NFT</a></Link>
+                  <Link to='/nft' onClick={handleLinkClick}><a >NFT</a></Link>
                   </li>
                   <li>
                     <a >Create Campaign</a>
                   </li>
                   <li>
-                    <button onClick={connectWallet} className="connect-button">
-                      <img
-                        src="https://cdn.iconscout.com/icon/free/png-256/metamask-2728406-2261817.png"
+                  <button onClick={connectWallet} className="connect-button">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/metamask-2728406-2261817.png"
                         className="metamask-icon"
                         alt="MetaMask Icon"
-                      />
-                      Connect with MetaMask
+                    />
+                    {connection === 'connected' ? 'Connected' : 'Connect with MetaMask'}
                     </button>
                   </li>
                 </ul>
@@ -191,7 +200,7 @@ const Mainpage = () => {
                       <div className="down-content">
                         <span className="category">Wayanad</span>
                         <h4>Rebuild</h4>
-                        <Link to='/nft1'>Explore</Link>
+                        <Link to='/nft1' onClick={handleLinkClick}>Explore</Link>
                       </div>
                     </div>
                   </div>
@@ -206,7 +215,7 @@ const Mainpage = () => {
                       <div className="down-content">
                         <span className="category">Lebanon</span>
                         <h4>Pager Aid</h4>
-                        <Link to='/nft2'>Explore</Link>
+                        <Link to='/nft2' onClick={handleLinkClick}>Explore</Link>
                       </div>
                     </div>
                   </div>

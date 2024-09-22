@@ -1,5 +1,5 @@
 # BlockHack
-rudo is a free, blockchain-powered donation platform designed to transform the world of online giving. With Trudo, donors can securely support verified charitable campaigns while receiving unique NFTs as rewards.!
+Trudo is a free, blockchain-powered donation platform designed to transform the world of online giving. With Trudo, donors can securely support verified charitable campaigns while receiving unique NFTs as rewards.!
 
 ## Team members
 1. <a href="https://github.com/noelmaby" >NOEL M ABY</a> <br>

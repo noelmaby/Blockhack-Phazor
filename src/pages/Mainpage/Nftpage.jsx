@@ -54,7 +54,7 @@ const Nftpage = () => {
             {/* ***** Menu Start ***** */}
             <ul className="nav">
             <Link to='/'><li><a>Home</a></li></Link>
-              <li><a href="#">NFT</a></li>
+             <Link to='/nft'><li><a href="#">NFT</a></li></Link> 
               <li><a href="#" >Create Campaign</a></li>
               <li>
                 <button onclick={connectWallet} className="connect-button">
@@ -112,7 +112,7 @@ data-filter=".rac"*/}
             <div className="down-content">
               <span className="category">Wayanad</span>
               <h4>Rebuild</h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <Link to='/nft1'> <i className="fa fa-shopping-bag" /></Link>
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@ data-filter=".rac"*/}
             <div className="down-content">
               <span className="category">Lebanon</span>
               <h4>Pager Aid</h4>
-              <a href="product-details.html"><i className="fa fa-shopping-bag" /></a>
+              <Link to='/nft2'> <i className="fa fa-shopping-bag" /></Link>
             </div>
           </div>
         </div>

@@ -1,5 +1,9 @@
-# BlockHack
-Trudo is a free, blockchain-powered donation platform designed to transform the world of online giving. With Trudo, donors can securely support verified charitable campaigns while receiving unique NFTs as rewards.!
+# Blockchain-Powered Donation Platform
+ This project was developed during the 32-hour BlockHack 2024 Hackathon held on September 21st-22nd at the KBA Technopark Campus, Trivandrum.
+
+## Overview
+Trudo is a revolutionary, free donation platform that harnesses the power of blockchain technology to enhance online giving. Our goal is to transform the landscape of charitable donations by providing a secure and transparent way for donors to support verified campaigns.
+
 
 ## Team members
 1. <a href="https://github.com/noelmaby" >NOEL M ABY</a> <br>

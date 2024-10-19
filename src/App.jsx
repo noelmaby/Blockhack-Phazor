@@ -6,6 +6,7 @@ import MainP from "../src/pages/Mainpage/Mainpage"
 import NftP from "../src/pages/Mainpage/Nftpage"
 import Nft1p from "../src/pages/Mainpage/Nft1page"
 import Nft2p from "../src/pages/Mainpage/Nftpage2"
+import CreateCampaign from "../src/pages/CreateCampaign/CreateCam"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/nft' element={<NftP/>} />
         <Route path='/nft1' element={<Nft1p/>} />
         <Route path='/nft2' element={<Nft2p/>} />
+        <Route path='/createCampaign' element={<CreateCampaign/>} />
       </Routes>
         
         

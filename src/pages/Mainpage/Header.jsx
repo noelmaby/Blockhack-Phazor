@@ -62,7 +62,7 @@ const Header = () => {
                   <Link to='/nft' onClick={handleLinkClick}><a >NFT</a></Link>
                   </li>
                   <li>
-                    <a >Create Campaign</a>
+                  <Link to='/createCampaign'><a >Create Campaign</a></Link>  
                   </li>
                   <li>
                   <button onClick={connectWallet} className="connect-button">
